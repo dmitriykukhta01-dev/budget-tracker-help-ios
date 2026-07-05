@@ -1,0 +1,18 @@
+title: Family Budget Tracker
+description: Privacy Policy and Support for the Family Budget Tracker mobile app.
+
+# Styling comes from _layouts/default.html — no external theme needed,
+# so the site builds identically on GitHub Pages with zero plugins.
+kramdown:
+  toc_levels: 2..2
+
+# Apply the default layout to every page automatically.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Nothing in these paths should be published as site content.
+exclude:
+  - README.md
